@@ -285,6 +285,7 @@ body {
   width: 100vw;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  overflow-x: hidden;
 }
 
 .hTitulo {
@@ -387,11 +388,6 @@ table td ol li {
   list-style: none;
 }
 
-footer {
-  height: auto;
-  width: 100%;
-}
-
 .fMapa {
   padding-top: 3rem;
   text-align: center;
@@ -439,6 +435,7 @@ footer {
 
 .lFooter {
   list-style: none;
+  overflow-x: hidden;
 }
 
 .lFooter > li {

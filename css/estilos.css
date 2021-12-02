@@ -281,7 +281,7 @@ body {
   background-color: black;
   color: white;
   height: auto;
-  width: 100%;
+  width: 100vw;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -384,6 +384,11 @@ table {
 
 table td ol li {
   list-style: none;
+}
+
+footer {
+  height: auto;
+  width: 100%;
 }
 
 .fMapa {

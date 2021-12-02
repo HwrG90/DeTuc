@@ -1,0 +1,39 @@
+/* fotmulario */
+.formulario--size {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    font-family: 'Caveat', cursive;
+}
+
+input {
+    font-family: 'Caveat', cursive;
+}
+
+.form-control {
+    font-family: 'Caveat', cursive;
+    border-radius: 2rem;
+    transition: all 1s;
+    width: 30%;
+}
+
+.form-control:focus {
+    font-size: 1.5rem;
+    border: 0.1rem dotted black;
+    color: black;
+}
+
+textarea {
+    transition: all 1s;
+    border-radius: 1rem;
+}
+
+textarea:focus {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    border: 0.1rem dotted $colorUno;
+    color: $colorUno;
+}
+
+label>.fContacto {
+    font-family: 'Caveat', cursive;
+}

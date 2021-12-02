@@ -1,0 +1,473 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* conversion a 10px */
+html {
+  font-size: 62.5;
+  scroll-behavior: smooth;
+}
+
+/* paleta de colores */
+.h1__header--size {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.h2--color {
+  margin-top: 2rem;
+  color: #6b724d;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.h3--color {
+  padding-top: 2rem;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.carouselIndex {
+  width: 65%;
+  margin: auto;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  max-height: 480px;
+}
+
+.containerVid {
+  text-align: center;
+}
+
+.containerImg {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.img-fluid {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  transition: 1s;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+}
+
+.modal-header {
+  color: white;
+  background-color: black;
+}
+
+.imgArticle {
+  padding: 50px;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  grid-template-columns: auto;
+  display: grid;
+  border: 2px solid black;
+}
+
+#img1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: turquoise;
+  height: 300px;
+  background-image: url(../multimedia/tucuman.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border: 2px solid black;
+}
+
+#img2 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background-color: thistle;
+  height: 400px;
+  background-image: url(../multimedia/cactusTucuman.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
+
+#img3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: yellowgreen;
+  background-image: url(../multimedia/tamalesUno.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
+
+#img4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: blue;
+  background-image: url(../multimedia/cazuela.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border: 2px solid black;
+}
+
+#img5 {
+  grid-column: 2/4;
+  grid-row: 3/4;
+  background-color: blueviolet;
+  background-image: url(../multimedia/sandwichDeMilanesa.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
+
+#img6 {
+  grid-column: 1/4;
+  grid-row: 4/4;
+  background-color: crimson;
+  height: 300px;
+  background-image: url(../multimedia/empanadas.jpg);
+  background-size: cover;
+  background-position: top;
+  border: 2px solid black;
+}
+
+.imgArticleDos--margin {
+  margin-top: 2rem;
+  height: auto;
+  width: 100%;
+  background-color: #800505;
+  display: grid;
+}
+
+#caja1 {
+  background-color: turquoise;
+  background-image: url(../multimedia/tucuman.jpg);
+  background-size: cover;
+}
+
+#caja2 {
+  background-color: #f5e000;
+  background-image: url(../multimedia/cactusTucuman.jpg);
+  background-size: cover;
+}
+
+#caja3 {
+  background-color: yellowgreen;
+  background-image: url(../multimedia/tamalesUno.jpg);
+  background-size: cover;
+}
+
+#caja4 {
+  background-color: blue;
+  background-image: url(../multimedia/cazuela.jpg);
+  background-size: cover;
+}
+
+#caja5 {
+  background-color: blueviolet;
+  background-image: url(../multimedia/sandwichDeMilanesa.jpg);
+  background-size: cover;
+}
+
+#caja6 {
+  background-color: crimson;
+  background-image: url(../multimedia/empanadas.jpg);
+  background-size: cover;
+}
+
+/* parrafos */
+.p1 {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.p2 {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.p3--align {
+  text-align: right;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.p4--align {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cAyuda:hover {
+  color: black;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.cAyuda {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 2px black;
+  transition: all 300ms;
+  transform: scale(1.2);
+}
+
+.mainIndex--padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.asideProductos--padding {
+  padding-top: 2rem;
+}
+
+.error404Img {
+  text-align: center;
+}
+
+.span--color {
+  color: #6b724d;
+}
+
+/* inicio media queries */
+@media only screen and (min-width: 768px) {
+  #caja1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  #caja2 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+
+  #caja3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  #caja4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  #caja5 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+
+  #caja6 {
+    grid-column: 1/4;
+    grid-row: 4/4;
+  }
+}
+/* media queries - fin */
+body {
+  font-family: "Caveat", cursive;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  height: auto;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hTitulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: 0% auto;
+  text-transform: capitalize;
+}
+
+.aHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.lHeader {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  margin-top: 6.2rem;
+}
+
+.lHeader > li {
+  transition: all 300ms;
+}
+
+.lHeader > li:hover {
+  transition: all 300ms;
+  transform: scale(1.2);
+}
+
+.lHeader > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.lHeader > li > a:hover {
+  color: #6b724d;
+}
+
+/* fotmulario */
+.formulario--size {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  font-family: "Caveat", cursive;
+}
+
+input {
+  font-family: "Caveat", cursive;
+}
+
+.form-control {
+  font-family: "Caveat", cursive;
+  border-radius: 2rem;
+  transition: all 1s;
+  width: 30%;
+}
+
+.form-control:focus {
+  font-size: 1.5rem;
+  border: 0.1rem dotted black;
+  color: black;
+}
+
+textarea {
+  transition: all 1s;
+  border-radius: 1rem;
+}
+
+textarea:focus {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  border: 0.1rem dotted black;
+  color: black;
+}
+
+label > .fContacto {
+  font-family: "Caveat", cursive;
+}
+
+/* tabla */
+table {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.estiloTabla {
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  font-size: 18px;
+  border-style: groove;
+  border-color: dimgray;
+}
+
+table td ol li {
+  list-style: none;
+}
+
+.fMapa {
+  padding-top: 3rem;
+  text-align: center;
+  padding-left: 2rem;
+  background-color: black;
+  width: 50rem;
+}
+
+.fContacto > a:hover {
+  color: #6b724d;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.fContacto {
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: left;
+}
+
+.fContacto > a {
+  color: white;
+  transition: all 300ms;
+  transform: scale(1.2);
+}
+
+.fRedesIconos {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: all 300ms;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fRedesIconos > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding-top: 7rem;
+  padding-right: 1rem;
+}
+
+.lFooter {
+  list-style: none;
+}
+
+.lFooter > li {
+  transition: all 300ms;
+}
+
+.lFooter > li:hover {
+  transform: scale(1.2);
+}
+
+.lFooter ul {
+  justify-content: right;
+}
+
+.bSubir {
+  height: 50px;
+  width: 35px;
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.bSubir > a > img:hover {
+  transition: all 300ms;
+  transform: scale(1.2);
+}
+
+div a img {
+  height: 35px;
+  width: 35px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

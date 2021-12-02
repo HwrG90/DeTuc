@@ -1,0 +1,84 @@
+.fMapa {
+    padding-top: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    background-color: $colorUno;
+    width: 50rem;
+}
+
+.fContacto>a:hover {
+    color: $colorDos;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.fContacto {
+    font-size: 2rem;
+    background-color: $colorUno;
+    color: $colorTres;
+    align-items: center;
+    text-align: left;
+
+}
+
+.fContacto>a {
+    color: $colorTres;
+    transition: all 300ms;
+    transform: scale(1.2);
+}
+
+.fRedesIconos {
+    background-color: $colorUno;
+    color: $colorTres;
+    text-decoration: none;
+    transition: all 300ms;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fRedesIconos>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 7rem;
+    padding-right: 1rem;
+}
+
+.lFooter {
+    list-style: none;
+}
+
+.lFooter>li {
+    transition: all 300ms;
+}
+
+.lFooter>li:hover {
+    transform: scale(1.2);
+}
+
+.lFooter ul {
+    justify-content: right;
+}
+
+.bSubir {
+    height: 50px;
+    width: 35px;
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.bSubir>a>img:hover {
+    transition: all 300ms;
+    transform: scale(1.2);
+}
+
+div a img {
+    height: 35px;
+    width: 35px;
+}

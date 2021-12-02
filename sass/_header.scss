@@ -1,0 +1,49 @@
+.header {
+    background-color: $colorUno;
+    color: $colorTres;
+    height: auto;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hTitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0% auto;
+    text-transform: capitalize;
+}
+
+.aHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.lHeader {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-top: 6.2rem;
+}
+
+.lHeader>li {
+    transition: all 300ms;
+}
+
+.lHeader>li:hover {
+    transition: all 300ms;
+    transform: scale(1.2);
+}
+
+.lHeader>li>a {
+    color: $colorTres;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.lHeader>li>a:hover {
+    color: $colorDos;
+}

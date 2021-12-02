@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* conversion a 10px */
+html {
+    font-size: 62.5;
+    scroll-behavior: smooth;
+}
+
+/* paleta de colores */
+$colorUno: black;
+$colorDos: rgb(107, 114, 77);
+$colorTres: white;
+
+.h1__header--size {
+    font-size: 1.2rem;
+    color: $colorTres;
+}
+
+.h2--color {
+    margin-top: 2rem;
+    color: $colorDos;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.h3--color {
+    padding-top: 2rem;
+    color: $colorUno;
+    font-size: 1.5rem;
+}
+
+.carouselIndex {
+    width: 65%;
+    margin: auto;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    max-height: 480px;
+}
+
+.containerVid {
+    text-align: center;
+}
+
+.containerImg {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.img-fluid {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 00.5rem;
+    transition: 1s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+.modal-header {
+    color: $colorTres;
+    background-color: $colorUno;
+}
+
+.imgArticle {
+    padding: 50px;
+    height: auto;
+    width: 100%;
+    background-color: $colorTres;
+    grid-template-columns: auto;
+    display: grid;
+    border: 2px solid black;
+}
+
+#img1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: turquoise;
+    height: 300px;
+    background-image: url(../multimedia/tucuman.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid black;
+}
+
+#img2 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: thistle;
+    height: 400px;
+    background-image: url(../multimedia/cactusTucuman.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+
+#img3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: yellowgreen;
+    background-image: url(../multimedia/tamalesUno.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+
+#img4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: blue;
+    background-image: url(../multimedia/cazuela.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid black;
+}
+
+#img5 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: blueviolet;
+    background-image: url(../multimedia/sandwichDeMilanesa.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+
+#img6 {
+    grid-column: 1/4;
+    grid-row: 4/4;
+    background-color: crimson;
+    height: 300px;
+    background-image: url(../multimedia/empanadas.jpg);
+    background-size: cover;
+    background-position: top;
+    border: 2px solid black;
+}
+
+.imgArticleDos--margin {
+    margin-top: 2rem;
+    height: auto;
+    width: 100%;
+    background-color: rgb(128, 5, 5);
+    display: grid;
+}
+
+#caja1 {
+    background-color: turquoise;
+    background-image: url(../multimedia/tucuman.jpg);
+    background-size: cover;
+}
+
+#caja2 {
+    background-color: rgb(245, 224, 0);
+    background-image: url(../multimedia/cactusTucuman.jpg);
+    background-size: cover;
+}
+
+#caja3 {
+    background-color: yellowgreen;
+    background-image: url(../multimedia/tamalesUno.jpg);
+    background-size: cover;
+}
+
+#caja4 {
+    background-color: blue;
+    background-image: url(../multimedia/cazuela.jpg);
+    background-size: cover;
+}
+
+#caja5 {
+    background-color: blueviolet;
+    background-image: url(../multimedia/sandwichDeMilanesa.jpg);
+    background-size: cover;
+}
+
+#caja6 {
+    background-color: crimson;
+    background-image: url(../multimedia/empanadas.jpg);
+    background-size: cover;
+}
+
+
+/* parrafos */
+.p1 {
+    color: $colorUno;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.p2 {
+    color: $colorUno;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.p3--align {
+    text-align: right;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+.p4--align{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cAyuda:hover {
+    color: $colorUno;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.cAyuda {
+    font-size: 25px;
+    text-decoration: none;
+    color: $colorUno;
+    text-shadow: 2px 2px 2px $colorUno;
+    transition: all 300ms;
+    transform: scale(1.2);
+}
+
+.mainIndex--padding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.asideProductos--padding {
+    padding-top: 2rem
+}
+.error404Img{
+    text-align: center;
+    
+}
+.span--color{
+    color: $colorDos;
+}
+
+
+/* inicio media queries */
+
+@media only screen and (min-width:768px) {
+    #caja1 {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    #caja2 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    #caja3 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #caja4 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    #caja5 {
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    #caja6 {
+        grid-column: 1/4;
+        grid-row: 4/4;
+    }
+}
+
+/* media queries - fin */
+
+
+@import"body";
+@import"_header";
+@import"_form";
+@import"_table";
+@import "_footer";

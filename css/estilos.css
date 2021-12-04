@@ -428,9 +428,14 @@ table td ol li {
 .fRedesIconos > ul {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
-  padding-top: 7rem;
-  padding-right: 1rem;
+  gap: 2rem;
+  padding-top: 6rem;
+  margin-right: 2rem;
+}
+
+.imgRedes {
+  height: 35px;
+  width: 35px;
 }
 
 .lFooter {
@@ -454,7 +459,7 @@ table td ol li {
   height: 50px;
   width: 35px;
   position: fixed;
-  bottom: 60px;
+  bottom: 80px;
   right: 40px;
   font-size: 10px;
   text-align: center;
@@ -463,14 +468,14 @@ table td ol li {
   border-radius: 50%;
 }
 
+.imgBSubir {
+  height: 35px;
+  width: 35px;
+}
+
 .bSubir > a > img:hover {
   transition: all 300ms;
   transform: scale(1.2);
-}
-
-div a img {
-  height: 35px;
-  width: 35px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

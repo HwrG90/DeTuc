@@ -434,13 +434,14 @@ table td ol li {
 }
 
 .imgRedes {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
 }
 
 .lFooter {
   list-style: none;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .lFooter > li {

@@ -21,10 +21,12 @@
 
 }
 
-.fContacto>a {
-    color: $colorTres;
-    transition: all 300ms;
-    transform: scale(1.2);
+.fContacto {
+    a {
+        color: $colorTres;
+        transition: all 300ms;
+        transform: scale(1.2);
+    }
 }
 
 .fRedesIconos {
@@ -33,15 +35,18 @@
     text-decoration: none;
     transition: all 300ms;
     font-size: 2rem;
-    text-align: center;
+    justify-content: space-between;
 }
 
-.fRedesIconos>ul {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    padding-top: 6rem;
-    margin-right: 2rem;
+.fRedesIconos {
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding-top: 6rem;
+        margin-right: 2rem;
+        align-items: space-between;
+    }
 }
 
 .imgRedes {
@@ -55,16 +60,20 @@
     overflow-y: hidden;
 }
 
-.lFooter>li {
-    transition: all 300ms;
+.lFooter {
+    li {
+        transition: all 300ms;
+    }
 }
 
 .lFooter>li:hover {
     transform: scale(1.2);
 }
 
-.lFooter ul {
-    justify-content: right;
+.lFooter {
+    ul {
+        justify-content: right;
+    }
 }
 
 .bSubir {

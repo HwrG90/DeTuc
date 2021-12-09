@@ -24,6 +24,7 @@ html {
 }
 
 .h3--color {
+  margin-left: 2rem;
   padding-top: 2rem;
   color: black;
   font-size: 1.5rem;
@@ -41,6 +42,7 @@ html {
 }
 
 .containerVid {
+  margin-top: 4rem;
   text-align: center;
 }
 
@@ -68,6 +70,8 @@ html {
 }
 
 .p2 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   color: black;
   text-align: center;
   font-size: 1.5rem;
@@ -94,6 +98,7 @@ html {
   font-size: 25px;
   text-decoration: none;
   color: black;
+  margin-left: 2rem;
   text-shadow: 2px 2px 2px black;
   transition: all 300ms;
   transform: scale(1.2);
@@ -305,13 +310,14 @@ table td ol li {
   height: 50px;
   width: 35px;
   position: fixed;
-  bottom: 80px;
+  bottom: 70px;
   right: 40px;
   font-size: 10px;
   text-align: center;
   line-height: 50px;
   text-decoration: none;
   border-radius: 50%;
+  color: black;
 }
 
 .imgBSubir {

@@ -33,17 +33,20 @@ html {
 .carouselIndex {
   width: 65%;
   margin: auto;
+  border-radius: 2rem;
 }
 
 .carousel-item img {
   height: 100%;
   width: 100%;
   max-height: 480px;
+  border-radius: 2rem;
 }
 
 .containerVid {
   margin-top: 4rem;
   text-align: center;
+  border-radius: 2rem;
 }
 
 .containerImg {
@@ -56,6 +59,7 @@ html {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   transition: 1s;
+  border-radius: 1.5rem;
 }
 
 .img-fluid:hover {
@@ -278,7 +282,7 @@ table td ol li {
 .fRedesIconos > ul {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1.5rem;
   padding-top: 6rem;
   margin-right: 2rem;
 }
@@ -317,7 +321,6 @@ table td ol li {
   line-height: 50px;
   text-decoration: none;
   border-radius: 50%;
-  color: black;
 }
 
 .imgBSubir {

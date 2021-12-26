@@ -1,8 +1,12 @@
 /* fotmulario */
 .formulario--size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 2rem;
-    padding-left: 2rem;
     font-family: 'Caveat', cursive;
+    text-align: center;
 }
 
 input {
@@ -13,7 +17,8 @@ input {
     font-family: 'Caveat', cursive;
     border-radius: 2rem;
     transition: all 1s;
-    width: 30%;
+    width: 100%;
+    text-align: center;
 }
 
 .form-control:focus {

@@ -98,22 +98,6 @@ $colorTres: white;
     font-size: 1.5rem;
 }
 
-.cAyuda:hover {
-    color: $colorUno;
-    font-size: 35px;
-    text-decoration: none;
-}
-
-.cAyuda {
-    font-size: 25px;
-    text-decoration: none;
-    color: $colorUno;
-    margin-left: 2rem;
-    text-shadow: 2px 2px 2px $colorUno;
-    transition: all 300ms;
-    transform: scale(1.2);
-}
-
 .mainIndex--padding {
     padding-top: 2rem;
     padding-bottom: 2rem;

@@ -25,6 +25,7 @@ html {
 
 .h3--color {
   margin-left: 2rem;
+  margin-right: 2rem;
   padding-top: 2rem;
   color: black;
   font-size: 1.5rem;
@@ -71,6 +72,8 @@ html {
   color: black;
   text-align: center;
   font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .p2 {
@@ -188,6 +191,7 @@ input {
   transition: all 1s;
   width: 100%;
   text-align: center;
+  border: 1px solid black;
 }
 
 .form-control:focus {
@@ -223,8 +227,6 @@ table {
   width: 50%;
   height: 40px;
   font-size: 18px;
-  border-style: groove;
-  border-color: dimgray;
 }
 
 table td ol li {
